@@ -5,4 +5,7 @@ export * from "./Dashboard";
 export * from "./Stats";
 export * from "./Settings";
 export * from "./NotFound";
-
+export * from "./Account";
+export * from "./UserProfile";
+export * from "./Layout";
+export * from "./SignUp";
