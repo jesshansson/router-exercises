@@ -72,7 +72,7 @@ export const router = createBrowserRouter([
       },
       {
         path: "old-home",
-        element: <Navigate to="/" />,
+        element: <Navigate to="/" replace />,
       },
       {
         path: "*",
