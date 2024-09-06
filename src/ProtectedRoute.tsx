@@ -7,7 +7,7 @@ type ProtectedRouteProps = {
 };
 
 export const ProtectedRoute = ({ children }: ProtectedRouteProps) => {
-  const { authorized } = useContext(AuthContext); // useAuth för att få auktoriseringsstatus
+  const { authorized } = useContext(AuthContext); // För att hämta auktoriseringsstatus från AuthProvider
 
   if (!authorized) {
     return <Navigate to="/" replace />;
