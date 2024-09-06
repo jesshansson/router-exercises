@@ -1,4 +1,3 @@
-
 export function NotFound() {
   return (
     <main>
@@ -6,4 +5,3 @@ export function NotFound() {
     </main>
   );
 }
-

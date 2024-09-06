@@ -7,8 +7,6 @@ interface LinkState {
 }
 
 export default function Header() {
-  //const userId = "123"; // Eller använd en dynamisk ID från state eller props
-
   const handleLinkState = ({ isActive, isPending, isTransitioning }: LinkState) =>
     [
       isPending ? "pending" : "",
@@ -38,9 +36,6 @@ export default function Header() {
         <NavLink className={handleLinkState} to="/signup">
           Sign up
         </NavLink>
-        {/* <NavLink className={handleLinkState} to={`/user/${userId}`}>
-          Profile
-        </NavLink> */}
       </nav>
     </main>
   );

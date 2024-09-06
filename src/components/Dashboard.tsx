@@ -2,7 +2,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 
 export function Dashboard() {
   const navigate = useNavigate();
-  const userId = "123";
+  const userId = "123"; //Eller ett dynamiskt användar-id
 
   return (
     <main className="nav-dashboard">

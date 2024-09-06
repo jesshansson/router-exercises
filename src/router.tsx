@@ -11,11 +11,11 @@ import {
   UserProfile,
   Layout,
   SignUp,
+  SignupStep1,
+  SignupStep2,
+  SignupStep3,
 } from "./components";
 import { ProtectedRoute } from "./ProtectedRoute";
-import { SignupStep1 } from "./components/Signup-step1";
-import { SignupStep2 } from "./components/Signup-step2";
-import { SignupStep3 } from "./components/Signup-step3";
 
 export const router = createBrowserRouter([
   {
